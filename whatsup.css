@@ -21,29 +21,29 @@ body{
   
   .Upper {
     width: 100%;
-    height: 70px; /* Reduced height for mobile */
+    height: 70px;
     background-color: rgb(29, 255, 97);
     position: fixed;
-    top: 0; /* Fix the header to the top */
+    top: 0;
   }
 
   .Profile {
-    height: 40px; /* Smaller profile image for mobile */
+    height: 40px; 
   }
 
   .name {
-    font-size: 18px; /* Smaller text for name */
+    font-size: 18px; 
   }
 
   .symbols {
-    font-size: 20px; /* Smaller icons for mobile */
+    font-size: 20px; 
   }
 
   .inside {
     position: relative;
-    height: calc(100vh - 70px); /* Adjusted height to avoid overlap */
-    padding-top: 70px; /* Offset the fixed upper bar */
-    overflow-y: scroll; /* Allow scrolling */
+    height: calc(100vh - 70px); 
+    padding-top: 70px; 
+    overflow-y: scroll; 
   }
 
   .date {
@@ -58,19 +58,19 @@ body{
   }
 
   .bottomicons {
-    font-size: 20px; /* Smaller icons */
+    font-size: 20px; 
   }
 
   .place::placeholder {
-    font-size: 18px; /* Smaller placeholder text */
+    font-size: 18px; 
   }
 
   .buttom {
-    height: 60px; /* Increased bottom bar height for mobile */
+    height: 60px; 
   }
 
   .mike {
-    width: 60px; /* Smaller microphone button */
+    width: 60px; 
   }
 }
 
